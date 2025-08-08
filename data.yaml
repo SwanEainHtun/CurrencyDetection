@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['100', '1000', '10000', '200', '50', '500', '5000']
+
+roboflow:
+  workspace: boo-wexnm
+  project: currencydetect-sgvei
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/boo-wexnm/currencydetect-sgvei/dataset/1
